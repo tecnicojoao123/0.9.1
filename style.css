@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   font-family: cursive;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(241, 239, 236);
+    width: 30vw;
+    height: 80vh;
+    border: 1px solid rgb(109, 105, 105);
+    border-radius: 5px;
+    overflow: hidden;
+}
+nav{
+    height: 8vh;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(241, 227, 227);
+    display: flex;
+    background-color: #d63a3a;
+}
+nav div{
+    border: 1px ;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+}
+nav div.title{
+    margin-left: 15px;
+}
+nav div.title p{
+    font-size: 18pt;
+    color: white;
+}
+
+nav div.settings{
+    align-self: flex-end;
+    text-align: right;
+    justify-content: flex-end;
+    height: 100%
+}
+nav svg{
+    margin: 0 15px;
+    height: 6vh;
+    fill: black;
+    cursor: pointer;
+}
+nav svg:hover{
+    height: 6.5vh;
+}
+
+
+li div {
+   
+    border-radius: 5px;
+    margin: 5px;
+    width: fit-content;
+    display: flex;
+    padding: 10px;
+}
+li.left div{
+    background-color: rgba(240, 248, 255, 0.787);
+}
+li.right div{
+    margin-left: auto;
+    background-color: rgba(49, 197, 49, 0.79);
+}
+ul svg{
+    width: 10px;
+    margin: 0 0 0 5px;
+    fill: rgb(121, 121, 121);
+}
+ul li.left svg{
+    fill: rgb(87, 214, 208);
+}
